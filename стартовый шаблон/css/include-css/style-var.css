@@ -1,0 +1,8 @@
+/* css variables */
+:root {
+    --accent_color: #853ED7;
+    --black_color: #0e1316;
+
+    --dark_BG_color: #171f23;
+    --light_BG_color: #f1f1f1;
+}

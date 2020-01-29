@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a, a:hover,
+a:active, a:focus {
+    text-decoration: none;
+    color: #222;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+img {
+    max-width: 100%;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.content {
+    flex: 1 0 auto;
+}
+
+.footer {
+    flex: 0 0 auto;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 30px;
+    line-height: 1.2;
+}
+
+.container {
+    width: 1210px;
+    margin: 0 auto;
+}
